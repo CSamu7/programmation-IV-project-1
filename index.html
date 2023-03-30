@@ -10,7 +10,7 @@
   <title>Inicio</title>
 </head>
 <body class="min-vh-100">
-  <div class="root min-vh-100 d-flex flex-column ">
+  <div class="root min-vh-100 d-flex flex-column position-relative ">
     
     <nav class="navbar bg-info w-100 mb-4 ">
       <ul class="navbar-nav d-flex flex-row justify-content-center gap-5 w-100">
@@ -28,24 +28,27 @@
 
     <div class="wrapper d-flex  flex-column align-items-center">
       <h1 class="text-center">Pan</h1>
-      <p class="w-75 ">El pan, del latín panis, es un alimento básico que forma parte de la dieta tradicional en Europa, Medio Oriente, India, América y Oceanía. Se suele preparar mediante el horneado de una masa, elaborada fundamentalmente con harina de cereal, agua y sal. La mezcla, en la mayoría de las ocasiones, suele contener levaduras para que se fermente la masa y sea más esponjosa y tierna.</p>
-      <img src="assets/img/logo" alt="">
+      <p class=" text-align: justify; w-75">El pan, del latín panis, es un alimento básico que forma parte de la dieta tradicional en Europa, Medio Oriente, India, América y Oceanía. Se suele preparar mediante el horneado de una masa, elaborada fundamentalmente con harina de cereal, agua y sal. La mezcla, en la mayoría de las ocasiones, suele contener levaduras para que se fermente la masa y sea más esponjosa y tierna.</p>
       <figure class="container">
-        <div class="col">
-          <img src="https://www.biografiasyvidas.com/biografia/b/fotos/bromfield_louis.jpg" alt="">
-        </div>
-        <div class="col">
-          <blockquote class="fst-italic row">
-            "El pan es el rey de la mesa y todo lo demás no es más que la corte que rodea al rey. En otros países son la sopa, la carne, las verduras, la ensalada, pero el pan es el rey." 
-          </blockquote>
-          <figcaption class="fw-bolder row">
-            Louis Bromfield
-          </figcaption>
-        </div>
+        <div class="d-flex align-items-center justify-content-center">
+          <img src="https://www.biografiasyvidas.com/biografia/b/fotos/bromfield_louis.jpg" class="rounded float-start img-fluid"  alt="Responsive image">
+          <div class="col">
+            <figure class="text-end fst-italic">
+              <blockquote class="blockquote ">
+                <p>El pan es el rey de la mesa y todo lo demás no es más que la corte que rodea al rey. En otros países son la sopa, la carne, las verduras, la ensalada, pero el pan es el rey."</p>
+              </blockquote>
+              <figcaption class="blockquote-footer fw-bold">
+                Louis Bromfield <cite title="Source Title"></cite>
+              </figcaption>
+            </figure>
+          </div>
+        </figure>
+      </div>
       </figure>
     </div>
+    </div>
 
-    <footer class="bg-info bg-gradient d-flex flex-row align-items-center justify-content-center mt-auto footer">
+    <footer class="bg-info bg-gradient d-flex flex-row align-items-center justify-content-center mt-auto footer position-absolute fixed-bottom">
       <p>Página hecha por Juan y Samu</p>
     </footer>
   </div>
